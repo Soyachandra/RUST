@@ -18,7 +18,9 @@ async fn main() {
 }
 #[derive(Debug, Deserialize, Serialize)]
 struct Data {
-    value: String,
+    id: u32,
+    name:String,
+    age:u32
 }
 
 async fn create(Json(payload): Json<Data>) -> Json<Data> {
