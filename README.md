@@ -12,6 +12,7 @@ cargo init server
 ```
 cargo build
 ```
+```
 cargo run
 ```
 
