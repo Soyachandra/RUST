@@ -1,0 +1,12 @@
+[package]
+name = "server2"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+axum = "0.7"                      # Web framework
+tokio = { version = "1", features = ["full"] }  # Async runtime
+hyper = "1.6.0"
+mongodb = "2.8"                    # MongoDB driver
+serde = { version = "1", features = ["derive"] }  # Serialization
