@@ -1,6 +1,21 @@
-## Building WEB API with RUST
+# Building WEB API with RUST
 
-# Test API Requests
+# Initialize Rust Project
+
+```
+
+cargo init server
+```
+
+## How to Run
+
+```
+cargo build
+```
+cargo run
+```
+
+## Test API Requests
 
 Using Curl
 ```
